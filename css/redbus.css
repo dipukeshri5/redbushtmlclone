@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+body{
+    background: #eee;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* width: 100%; */
+}
+#headerBlock
+{
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    background-color: #d84f57;
+    
+}
+#headerBlock .container {
+    height: 50px;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    align-items:center;
+}
+#headerBlock .container .leftNav
+{
+    flex: 1;
+    
+}
+#headerBlock .container .rightNav
+{
+   /* text-align: left; */
+    flex: 1;
+    justify-content: flex-end;
+    display: flex;
+}
+/* slider block css starts here */
+#sliderBlock img{
+    width: 100%;
+    height: 450px;
+}
+/* #sliderBlock{
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    
+   
+} */
+/* -----------left menu  block----- */
+.leftNav section
+{
+    display: flex;
+}
+.leftNav ul ,.rightNav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.leftNav ul li a,.rightNav ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 14px;
+  display: inline-block;
+
+}
+.logo
+{
+    flex: 1;
+}
+.leftmenu
+{
+    flex: 8;
+}
+.logo a
+{
+    background-image: url(../image/leftlogo.png);
+    width: 80px;
+    height: 48px;
+    display: flex;
+    text-indent: -9999px;
+}
+.leftNav .leftmenu ul li a:active
+{
+    font-weight: 600;
+    border-bottom: 3px solid #fff;
+    /* transition: ease-in-out 0.6s; */
+}
+ .leftNav  ul li a:hover
+{
+    color:#f9e7ea;
+}
+/* .rightNav
+{
+    font-weight: 400;
+    font-size: 36px;
+} */
+.fa-user-circle {
+    font-size: 35px;
+    font-weight: lighter;
+    line-height: 20px;
+} 
+.fa-angle-down{
+    margin: 0px 0px 0 6px;
+}
+.after_user_circle{
+    margin: -21px 21px 0 41px !important;
+    display: block;
+}
+#sliderBlock{
+    background-image: url(../image/safetyplus1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: top;
+    
+
+
+}
+#searchBusBlock article
+{
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    position: relative;
+
+
+}
+#searchBusBlock article input
+{
+    padding: 15.5px 28px 16px 40px;
+    display: flex;
+    border: none;
+    box-sizing: border-box;
+    border-right: 1.3px solid #888;
+    
+    
+}
+input[type="date"] {
+font-size: 11px;
+padding: 14px 30px !important;
+border-right: none !important;
+}
+#searchBusBlock article button{
+    height: 46px;
+    width: 144px;
+    background: #d74f57;
+    color: #fff;
+box-sizing: border-box;
+font-size: 14px;
+border: none;
+font-weight: bold;
+text-transform: capitalize;
+}
+.city_icon{
+    position: relative;
+
+}
+.city_icon i{
+    position: absolute;
+    top: -14px;
+    left: 6px;
+    font-size: 20px;
+}
+.swap_icon{
+    position: absolute;
+    left: 483px;
+    
+}
+#latestUpdateBlock
+{
+    /* pospxition: relative; */
+    /* left: 500px;
+    top: 350px; */
+    display: flex;
+    justify-content: center;
+}
+#latestUpdateBlock article{
+width: 530px;
+height: 100px;
+padding: 10px 20px 10px 20px;
+box-sizing: border-box;
+background-color: #fff5e5;
+display: flex;
+align-items: center;
+margin-top: -40px;
+}
+#latestUpdateBlock article div:nth-child(1)
+{
+flex: 2;
+}
+#latestUpdateBlock article div:nth-child(2)
+{
+    flex: 8;
+}
+#latestUpdateBlock article div:nth-child(3)
+{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: ;
+}
+#bell-on i{
+    color:#d74f57;
+    font-size: 50px;
+}
+#latestUpdatBlock article h4{
+    font-size: 15px;
+    margin: 0;
+    padding: 5px;
+}
+#latestUpdatBlock article p{
+    font-size: 12px;
+    margin: 0;
+    padding: 5px;
+    font-weight: lighter;
+
+}
+.btn{
+    width: 130px;
+    height: 25px;
+    background-color:#d74f57;
+    color: #fff;
+    padding: 4px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+/* -----------On time css block start here--------- */
+#OnTimeBlock >article{
+    width: 1200px;
+    border: 1px solid #cccccc;
+    background: #fff;
+    margin: 60px auto;
+    display: flex;
+    height: 320px;
+}
+.leftOnDiv {
+    flex: 1;
+  }
+  .leftOnDiv p {
+    background: url("../image/ic-shield-red-big.png");
+    height: 88px;
+    width: 88px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    margin: 20px;
+  }
+  
+  .rightOnDiv {
+    flex: 8;
+  }
+  
+  .img3_hero,
+  .img4_Hero {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+  }
+  
+  .img3_hero {
+    background-image: url("../image/tip-icon.png");
+    width: 24px;
+    height: 24px;
+  }
+  
+  .img4_Hero {
+    background-image: url("../image/otgText.png");
+    width: 156px;
+    height: 26px;
+  }
+  .rightInsideFooter {
+    display: flex;
+    margin: 10px;
+  }
+  .rightInsideFooter div {
+    flex: 1;
+  }
+  
+/* -----------On time css block end here--------- */
+
+
+/* smarter way start here */
+.Smaterway{
+
+    box-sizing: border-box;
+    border: 1px solid gray;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 600px;
+}
+.leftImage{
+    background-image: url("../image/tmb_img.png");
+    height: 335px;
+    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+   margin-left: 80px;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   float: left;
+   
+    
+}
+.rightParagraph{
+    /* float: right; */
+    /* width: 150px; */
+    padding-top: 60px 0px 0px;
+    box-sizing: border-box;
+    font-weight: lighter;
+    margin-left: 71px;
+    height: 350px;
+}
+.rightParagraph h2{
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.rightParagraph h4{
+    
+    /* display: inline-flex; */
+    /* padding-top: 60px 0px 0px;
+    box-sizing: border-box;
+    */
+    margin-left: 550px; 
+    
+font-weight: lighter;    
+}
+#knowMore
+{ 
+
+    margin-left: 42px;
+    width: 117px;
+    height: 36px;
+    border: 1px solid blue;
+    /* text-decoration-color: blue; */
+    color: blue;
+}
+.try{
+    display: flex;
+    margin: -30px 150px 10px 50px;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+
+.globalBlockContent {
+    width: 1200px;
+    margin: 30px auto;
+  }
+  
+  .globalBlockContent h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .globalBlockContent article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  
+  }
+  
+  .globalBlockContent article>div {
+    flex-basis: 32%;
+    /* ----width ----*/
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  
+  }
+  
+  .india p:first-child {
+    background: url(../image/63f6a3d801cae05e26a753cbdc8e2dee.png) !important;
+    height: 80px;
+    width: 123px;
+    background-repeat: no-repeat !important;
+    background-position: 0px -294px !important;
+    text-indent: -9999px;
+  }
+  
+  .colombia p:first-child {
+    background: url(../image/63f6a3d801cae05e26a753cbdc8e2dee.png) !important;
+    height: 80px;
+    width: 123px;
+    background-repeat: no-repeat !important;
+    background-position: 0px -614px !important;
+    text-indent: -9999px;
+  }
+  
+  .country {
+    text-align: center;
+    text-transform: uppercase;
+    color: #777;
+    font-size: 15px;
+  }
+  .malaysia p:first-child
+  {
+    background: url(../image/63f6a3d801cae05e26a753cbdc8e2dee.png) !important;
+    height: 80px;
+    width: 123px;
+    background-repeat: no-repeat !important;
+    background-position: 0px -374px !important;
+    text-indent: -9999px;
+
+  }
+  .peru p:first-child
+  {
+    background: url(../image/63f6a3d801cae05e26a753cbdc8e2dee.png) !important;
+    height: 80px;
+    width: 123px;
+    background-repeat: no-repeat !important;
+    background-position: 0px -454px !important;
+    text-indent: -9999px; 
+  }
+  .singapore p:first-child
+  {
+    background: url(../image/63f6a3d801cae05e26a753cbdc8e2dee.png) !important;
+    height: 80px;
+    width: 123px;
+    background-repeat: no-repeat !important;
+    background-position: 0px -534px !important;
+    text-indent: -9999px;
+  }
+  .Indonesia p:first-child
+  {
+    background: url(../image/63f6a3d801cae05e26a753cbdc8e2dee.png) !important;
+    height: 80px;
+    width: 123px;
+    background-repeat: no-repeat !important;
+    background-position: 0px -214px !important;
+    text-indent: -9999px;
+  }
+  
+  /------OUR GLOBAL PRESENCE ENDS HERE------/
+
+
+
+  /* <!-- we promise to deliver starts here --> */
+
+
+#promiseBlock article{
+      width: 1200px;
+      margin: 0 auto;
+      
+  }
+  #promiseBlock article>header{
+      display: flex;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  #promiseBlock article>header p{
+      margin: 0;
+      padding: 0;
+  }
+  #promiseBlock article>header p img{
+      height: 100px;
+  }
+  #promiseBlock article>header h1{
+      font-size: 30px;
+      font-weight: bold;
+      margin: 10px 0 0 0;
+  }
+  .mainPromiseContainer{
+      background: #fff;
+      display: flex;
+      margin-top: 50px;
+      border: 1px solid #cccccc87;
+  }
+  .mainPromiseContainer div{
+      flex: 1;
+      border: 1px solid #cccccc87;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+
+  }
+  .mainPromiseContainer div img{
+      width: 112px;
+      height: 86px;
+  }
+  .mainPromiseContainer div h5{
+      text-transform: uppercase;
+      color: #444;
+      font-weight: lighter;
+      padding: 30px 30px 0px;
+      text-align: center;
+      height: 20px;
+  }
+  .mainPromiseContainer div footer p{
+      font-size: 14px;
+      color: #666;
+      text-align: center;
+      line-height: 23px;
+  }
